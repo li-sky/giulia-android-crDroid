@@ -1015,6 +1015,7 @@
   </project>
 
   <include name="snippets/crdroid.xml" />
+  <include name="snippets/giulia.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
 </manifest>
