@@ -631,7 +631,6 @@
   <project path="hardware/google/pixel" name="LineageOS/android_hardware_google_pixel" groups="generic_fs,pixel,pdk-gs-arm,pdk-gs-imgtec,pdk-desktop" />
   <project path="hardware/google/pixel-sepolicy" name="LineageOS/android_hardware_google_pixel-sepolicy" groups="generic_fs,pixel,pdk-desktop" />
   <!--<project path="hardware/interfaces" name="LineageOS/android_hardware_interfaces" groups="pdk,sysui-studio" />-->
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense,pdk" remote="aosp" />
   <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />-->
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" remote="aosp" />
   <project path="hardware/nxp/keymint" name="platform/hardware/nxp/keymint" groups="pdk" remote="aosp" />
@@ -768,7 +767,7 @@
   <project path="packages/modules/NeuralNetworks" name="platform/packages/modules/NeuralNetworks" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/Nfc" name="LineageOS/android_packages_modules_Nfc" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/OnDevicePersonalization" name="platform/packages/modules/OnDevicePersonalization" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <!--<project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />-->
+  <project path="packages/modules/Permission" name="LineageOS/android_packages_modules_Permission" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/modules/Profiling" name="platform/packages/modules/Profiling" groups="pdk" remote="aosp" />
   <project path="packages/modules/RemoteKeyProvisioning" name="platform/packages/modules/RemoteKeyProvisioning" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="packages/modules/RuntimeI18n" name="platform/packages/modules/RuntimeI18n" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -934,7 +933,7 @@
   <project path="system/unwinding" name="platform/system/unwinding" groups="pdk" remote="aosp" />
   <!--<project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />-->
   <project path="system/usb_info_tools" name="platform/system/usb_info_tools" groups="pdk" remote="aosp" />
-  <!--<project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />-->
+  <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="system/zygote" name="platform/system/zygote" groups="pdk" remote="aosp" />
   <project path="test/app_compat/csuite" name="platform/test/app_compat/csuite" groups="pdk" remote="aosp" />
   <project path="test/catbox" name="platform/test/catbox" groups="pdk" remote="aosp" />
@@ -1014,5 +1013,4 @@
   <include name="snippets/giulia.xml" />
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
-  <include name="snippets/pixel.xml" />
 </manifest>
